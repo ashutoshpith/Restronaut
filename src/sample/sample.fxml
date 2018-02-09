@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1310.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <HBox layoutY="6.0" prefHeight="800.0" prefWidth="1310.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <TabPane prefHeight="800.0" prefWidth="1310.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                        <Tab text="HOME">
+                            <content>
+                                <AnchorPane prefHeight="761.0" prefWidth="1310.0" style="-fx-background-color: #00AAFF;">
+                                    <children>
+                                        <ImageView fitHeight="546.0" fitWidth="1310.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="217.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+                                            <image>
+                                                <Image url="@../img/restro1.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="CENTER" layoutX="22.0" layoutY="542.0" lineSpacing="200.0" prefHeight="200.0" prefWidth="260.0" text="Best Cusine" underline="true">
+                                            <font>
+                                                <Font name="Forte" size="48.0" />
+                                            </font>
+                                            <textFill>
+                                                <RadialGradient centerX="0.5454545454545454" centerY="1.0" radius="0.5">
+                                                    <stops>
+                                                        <Stop color="BLACK" />
+                                                        <Stop color="WHITE" offset="1.0" />
+                                                    </stops>
+                                                </RadialGradient>
+                                            </textFill>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="355.0" layoutY="542.0" lineSpacing="200.0" prefHeight="200.0" prefWidth="260.0" text="Good Rest" underline="true">
+                                            <font>
+                                                <Font name="Forte" size="48.0" />
+                                            </font>
+                                            <textFill>
+                                                <RadialGradient centerX="0.5454545454545454" centerY="1.0" radius="0.5">
+                                                    <stops>
+                                                        <Stop color="BLACK" />
+                                                        <Stop color="WHITE" offset="1.0" />
+                                                    </stops>
+                                                </RadialGradient>
+                                            </textFill>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="695.0" layoutY="542.0" lineSpacing="200.0" prefHeight="200.0" prefWidth="260.0" text="Good Service" underline="true">
+                                            <font>
+                                                <Font name="Forte" size="48.0" />
+                                            </font>
+                                            <textFill>
+                                                <RadialGradient centerX="0.5454545454545454" centerY="1.0" radius="0.5">
+                                                    <stops>
+                                                        <Stop color="BLACK" />
+                                                        <Stop color="WHITE" offset="1.0" />
+                                                    </stops>
+                                                </RadialGradient>
+                                            </textFill>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="1037.0" layoutY="542.0" lineSpacing="200.0" prefHeight="200.0" prefWidth="260.0" text="Best Cook" underline="true">
+                                            <font>
+                                                <Font name="Forte" size="48.0" />
+                                            </font>
+                                            <textFill>
+                                                <RadialGradient centerX="0.5454545454545454" centerY="1.0" radius="0.5">
+                                                    <stops>
+                                                        <Stop color="BLACK" />
+                                                        <Stop color="WHITE" offset="1.0" />
+                                                    </stops>
+                                                </RadialGradient>
+                                            </textFill>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="MENU">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="772.0" prefWidth="1317.0" style="-fx-background-color: #FF0055;">
+                                    <children>
+                                        <Label alignment="CENTER" layoutX="14.0" layoutY="23.0" prefHeight="97.0" prefWidth="271.0" text="Stater's" underline="true" AnchorPane.topAnchor="20.0">
+                                            <font>
+                                                <Font name="Forte" size="60.0" />
+                                            </font>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="348.0" layoutY="131.0" prefHeight="88.0" prefWidth="264.0" text="Desssret" underline="true" AnchorPane.topAnchor="20.0">
+                                            <font>
+                                                <Font name="Forte" size="60.0" />
+                                            </font>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="667.0" layoutY="195.0" prefHeight="88.0" prefWidth="278.0" text="Biryani" underline="true" AnchorPane.topAnchor="20.0">
+                                            <font>
+                                                <Font name="Forte" size="60.0" />
+                                            </font>
+                                        </Label>
+                                        <Label alignment="CENTER" layoutX="1012.0" layoutY="239.0" prefHeight="102.0" prefWidth="268.0" text="SeaFood" underline="true" AnchorPane.topAnchor="20.0">
+                                            <font>
+                                                <Font name="Forte" size="60.0" />
+                                            </font>
+                                        </Label>
+                                        <TableView fx:id="statertable" cache="true" layoutX="14.0" layoutY="300.0" prefHeight="366.0" prefWidth="271.0" style="-fx-background-radius: 15;" AnchorPane.bottomAnchor="117.0" AnchorPane.topAnchor="300.0">
+                                            <columns>
+                                                <TableColumn fx:id="staterItem" prefWidth="152.0" text="Item's " />
+                                                <TableColumn fx:id="staterPrice" prefWidth="118.0" text="Prize" />
+                                            </columns>
+                                            <effect>
+                                                <DropShadow>
+                                                    <input>
+                                                        <SepiaTone level="0.49" />
+                                                    </input>
+                                                </DropShadow>
+                                            </effect>
+                                            <cursor>
+
+                                            </cursor>
+                                        </TableView>
+                                        <TableView fx:id="deserttable" cache="true" layoutX="342.0" layoutY="300.0" prefHeight="344.0" prefWidth="271.0" style="-fx-background-radius: 15;" AnchorPane.bottomAnchor="117.0" AnchorPane.topAnchor="300.0">
+                                            <columns>
+                                                <TableColumn fx:id="dessertItem" prefWidth="142.0" text="Item's " />
+                                                <TableColumn fx:id="dessertPrice" prefWidth="128.0" text="Prize" />
+                                            </columns>
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <cursor>
+
+                                            </cursor>
+                                            <effect>
+                                                <SepiaTone level="0.49">
+                                                    <input>
+                                                        <DropShadow />
+                                                    </input>
+                                                </SepiaTone>
+                                            </effect>
+                                        </TableView>
+                                        <TableView fx:id="biryanitable" cache="true" layoutX="674.0" layoutY="300.0" prefHeight="307.0" prefWidth="271.0" style="-fx-background-radius: 15;" AnchorPane.bottomAnchor="117.0" AnchorPane.topAnchor="300.0">
+                                            <columns>
+                                                <TableColumn fx:id="biryaniItem" prefWidth="153.0" text="Item's " />
+                                                <TableColumn fx:id="biryaniPrice" prefWidth="117.0" text="Prize" />
+                                            </columns>
+                                            <effect>
+                                                <DropShadow>
+                                                    <input>
+                                                        <SepiaTone level="0.49" />
+                                                    </input>
+                                                </DropShadow>
+                                            </effect>
+                                            <cursor>
+
+                                            </cursor>
+                                        </TableView>
+                                        <TableView fx:id="seafoodtable" cache="true" layoutX="1013.0" layoutY="300.0" prefHeight="299.0" prefWidth="271.0" style="-fx-background-radius: 15;" AnchorPane.bottomAnchor="117.0" AnchorPane.topAnchor="300.0">
+                                            <columns>
+                                                <TableColumn fx:id="seafoodItem" prefWidth="156.0" text="Item's" />
+                                                <TableColumn fx:id="seafoodPrice" prefWidth="114.0" text="Prize" />
+                                            </columns>
+                                            <effect>
+                                                <DropShadow>
+                                                    <input>
+                                                        <SepiaTone level="0.49" />
+                                                    </input>
+                                                </DropShadow>
+                                            </effect>
+                                            <cursor>
+
+                                            </cursor>
+                                        </TableView>
+                                        <Button layoutX="29.0" layoutY="648.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="242.0" text="Load Today's Dish" />
+                                        <Button layoutX="356.0" layoutY="649.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="241.0" text="Load Today's Dish" />
+                                        <Button layoutX="685.0" layoutY="648.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="249.0" text="Load Today's Dish" />
+                                        <Button layoutX="1028.0" layoutY="649.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="252.0" text="Load Today's Dish" />
+                                        <ImageView fitHeight="136.0" fitWidth="257.0" layoutX="21.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/stater2.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fitHeight="189.0" fitWidth="266.0" layoutX="347.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/desert1.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fitHeight="171.0" fitWidth="266.0" layoutX="714.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/biryani1.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fitHeight="154.0" fitWidth="276.0" layoutX="1013.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/seafood1.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Button layoutX="84.0" layoutY="704.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="131.0" text="Add in box" />
+                                        <Button layoutX="390.0" layoutY="704.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="183.0" text="Add in Box" />
+                                        <Button layoutX="718.0" layoutY="704.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="183.0" text="Add in Box" />
+                                        <Button layoutX="1063.0" layoutY="704.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="183.0" text="Add in Box" />
+                                    </children></AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="RESERVATION">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                    <children>
+                                        <SplitPane dividerPositions="0.29797979797979796" layoutX="6.0" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <items>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                                    <children>
+                                                        <JFXButton fx:id="order1btn" buttonType="RAISED" layoutX="95.0" layoutY="131.0" onAction="#order1" prefHeight="35.0" prefWidth="250.0" ripplerFill="#08c2d7" style="-fx-background-color: #FF0055;" text="Order 1" textFill="#ebe5e5" />
+                                                        <JFXButton fx:id="order2btn" buttonType="RAISED" layoutX="95.0" layoutY="217.0" prefHeight="35.0" prefWidth="250.0" ripplerFill="#08c2d7" style="-fx-background-color: #FF0055;" text="Order 2" textFill="#ebe5e5" />
+                                                    </children>
+                                                </AnchorPane>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                                    <children>
+                                                        <HBox prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                            <children>
+                                                                <TabPane prefHeight="759.0" prefWidth="1026.0" tabClosingPolicy="UNAVAILABLE">
+                                                                    <tabs>
+                                                                        <Tab text="Order">
+                                                                            <content>
+                                                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                                                    <children>
+                                                                                        <TableView fx:id="orderTable" layoutX="173.0" layoutY="82.0" prefHeight="366.0" prefWidth="624.0">
+                                                                                            <columns>
+                                                                                                <TableColumn fx:id="orderitem" prefWidth="312.0" text="Item's List" />
+                                                                                                <TableColumn fx:id="orderPrice" minWidth="0.0" prefWidth="229.0" text="Price" />
+                                                                                            </columns>
+                                                                                            <contextMenu>
+                                                                                                <ContextMenu fx:id="contextMenu">
+                                                                                                    <items>
+                                                                                                        <MenuItem fx:id="refresh" mnemonicParsing="false" onAction="#order1" text="Refresh" />
+                                                                                                        <MenuItem fx:id="edit" mnemonicParsing="false" text="Edit" />
+                                                                                                        <MenuItem fx:id="delete" mnemonicParsing="false" text="Delete" />
+                                                                                                    </items>
+                                                                                                </ContextMenu>
+                                                                                            </contextMenu>
+                                                                                        </TableView>
+                                                                                    </children>
+                                                                                </AnchorPane>
+                                                                            </content>
+                                                                        </Tab>
+                                                                        <Tab text="History">
+                                                                            <content>
+                                                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                            </content>
+                                                                        </Tab>
+                                                                    </tabs>
+                                                                </TabPane>
+                                                            </children>
+                                                        </HBox>
+                                                    </children>
+                                                </AnchorPane>
+                                            </items>
+                                        </SplitPane>
+                                    </children></AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="ADMIN">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #787878;">
+                                    <children>
+                                        <ImageView fitHeight="173.0" fitWidth="207.0" layoutX="223.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/11.png" />
+                                            </image>
+                                        </ImageView>
+                                        <Label layoutX="188.0" layoutY="282.0" text="Admin Login">
+                                            <font>
+                                                <Font name="Perpetua" size="60.0" />
+                                            </font>
+                                        </Label>
+                                        <JFXTextField fx:id="userid" focusColor="#1c2bd7" labelFloat="true" layoutX="169.0" layoutY="404.0" prefHeight="31.0" prefWidth="288.0" promptText="User ID" unFocusColor="#14da35">
+                                            <font>
+                                                <Font size="25.0" />
+                                            </font></JFXTextField>
+                                        <JFXPasswordField fx:id="password" focusColor="#155dee" labelFloat="true" layoutX="167.0" layoutY="494.0" prefHeight="31.0" prefWidth="293.0" promptText="Password" unFocusColor="#58dd33">
+                                            <font>
+                                                <Font size="25.0" />
+                                            </font></JFXPasswordField>
+                                        <JFXTextField fx:id="addItem" focusColor="#0b32e4" labelFloat="true" layoutX="843.0" layoutY="215.0" prefHeight="31.0" prefWidth="312.0" promptText=" Add Item" unFocusColor="#1ae435">
+                                            <font>
+                                                <Font size="25.0" />
+                                            </font></JFXTextField>
+                                        <JFXTextField fx:id="price" focusColor="#1255f2" labelFloat="true" layoutX="843.0" layoutY="326.0" prefHeight="31.0" prefWidth="316.0" promptText="Price" unFocusColor="#18ed0e">
+                                            <font>
+                                                <Font size="25.0" />
+                                            </font></JFXTextField>
+                                        <JFXButton fx:id="additemBtn" buttonType="RAISED" layoutX="843.0" layoutY="521.0" onAction="#addFoods" prefHeight="40.0" prefWidth="322.0" ripplerFill="#d72525" style="-fx-background-color: #5555FF; -fx-background-radius: 15;" text="Add Item" textFill="#ebe3e3" />
+                                        <JFXButton fx:id="loginbtn" buttonType="RAISED" layoutX="240.0" layoutY="604.0" onAction="#loginAdmin" prefHeight="39.0" prefWidth="185.0" ripplerFill="#e12615" style="-fx-background-color: #5555FF; -fx-background-radius: 15;" text="Login" textFill="#f2eaea" />
+                                        <JFXComboBox fx:id="optionCombobox" labelFloat="true" layoutX="844.0" layoutY="422.0" prefHeight="31.0" prefWidth="317.0" promptText="                                In Food" style="-fx-background-color: #FFAA55; -fx-background-radius: 15;" unFocusColor="#26cf13" />
+                                        <Label fx:id="labelStatus" alignment="CENTER" layoutX="1034.0" layoutY="9.0" prefHeight="38.0" prefWidth="271.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                        <Label fx:id="adminStatus" layoutY="1.0" prefHeight="36.0" prefWidth="240.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                        <Label fx:id="addItemStatus" layoutX="843.0" layoutY="143.0" prefHeight="44.0" prefWidth="301.0" />
+                                        <Separator layoutX="675.0" layoutY="10.0" orientation="VERTICAL" prefHeight="736.0" prefWidth="0.0" style="-fx-background-color: #FF2A55;" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                                    </children></AnchorPane>
+                            </content>
+                        </Tab>
+                    </tabs>
+                </TabPane>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
